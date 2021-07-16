@@ -54,7 +54,7 @@ userSchema.methods.generateToken = () => {
     let user = this;
     return new Promise(async function(resolve, reject) {
         try {
-            const token = await.jwt.sign(
+            const token = await jwt.sign(
                 user._id.toHexString(),
                 process.env.SECRET_TOKEN
             );
