@@ -1,0 +1,11 @@
+.full-arrow { transform-origin: 50% 50%;
+transform: translateY(0 px);
+transition: transform 0.25 s ease-in-out,
+opacity 0.25 s ease;
+}.toggle-arrow-svg.down.full-arrow {opacity: 0;
+transform: translateY(21 px) rotate(0.25 turn);
+}.half-arrow {transform-origin: 50% 50%;
+transform: translateY(0 px) rotate(-0.25 turn);
+transition: transform 0.25 s ease-in-out;
+}.toggle-arrow-svg.down.half-arrow {transform: translateY(21 px) rotate(0 turn);
+}
