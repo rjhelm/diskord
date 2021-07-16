@@ -9,5 +9,5 @@ export interface Message {
 }
 
 export interface MessageProps {
-    message: Message[];
+    messages: Message[];
 }
