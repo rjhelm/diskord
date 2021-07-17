@@ -4,7 +4,7 @@ import styled from "styled-components";
 import NavItem from "./NavItem";
 import Seperator from '../Common/Seperator';
 
-const servers= [
+const servers = [
     { name: "Dope" },
     { name: "Bruh" },
     { name: "Dope" },
