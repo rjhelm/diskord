@@ -45,8 +45,8 @@ const RightMenu = () => {
                 users={onlineUsers}
                 ownerId={channelOwnerId}
             />
-            <UserSectionLabelDiv UserSectionLabelDiv > Offline </UserSectionLabelDiv >
-            <RightMenuContainerDiv UserCardList
+            <UserSectionLabelDiv> Offline </UserSectionLabelDiv >
+            <UserCardList
                 online={false}
                 users={offlineUsers}
                 ownerId={channelOwnerId}
